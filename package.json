@@ -1,0 +1,22 @@
+{
+  "name": "emotion",
+  "description": "Jeremy",
+  "version": "1.0.0",
+  "homepage": "#",
+  "author": "Jeremy",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [],
+  "scripts": {
+    "dev": "tailwindcss -i ./css/style.css -o ./style.css --watch",
+    "build": "tailwindcss -i ./css/style.css -o ./style.css"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.1",
+    "@tailwindcss/forms": "^0.5.10"
+  },
+  "devDependencies": {
+    "chartjs-plugin-gradient": "^0.6.1",
+    "tailwindcss": "^4.1.8"
+  }
+}
